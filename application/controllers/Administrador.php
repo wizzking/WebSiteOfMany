@@ -7,4 +7,12 @@ class Administrador extends CI_Controller
 	{
 		$this->load->view('Administrador/Inicio');
 	}
+	public function Error404()
+	{
+		$this->load->view('Administrador/Error/Error404');
+	}
+	public function Error500()
+	{
+		$this->load->view('Administrador/Error/Error500');
+	}
 }
