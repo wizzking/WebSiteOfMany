@@ -5,6 +5,6 @@ class Administrador extends CI_Controller
 {
 	public function index()
 	{
-		$this->load->view('Administrador/test');
+		$this->load->view('Administrador/Inicio');
 	}
 }
