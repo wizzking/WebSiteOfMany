@@ -15,4 +15,12 @@ class Administrador extends CI_Controller
 	{
 		$this->load->view('Administrador/Error/Error500');
 	}
+	public function Registro()
+	{
+		$this->load->view('Administrador/Registro');
+	}
+	public function CambiarContrasena()
+	{
+		$this->load->view('Administrador/CambiarContrasena');
+	}
 }
