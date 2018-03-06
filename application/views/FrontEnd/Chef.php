@@ -1,4 +1,4 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
-aaa
-gg
+<!--http://localhost/WebSiteOfMany/index.php/Restaurante/Chef-->
+
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>
