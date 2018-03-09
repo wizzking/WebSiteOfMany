@@ -13,7 +13,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="col-md-4">
-         <a href="#"><img src="<?php echo base_url('assets/sources/img/latest.png'); ?>" class="img-nav" alt="SAO" width="100px" heigh="100px"></a>
+         <a href="#"><center><img src="<?php echo base_url('assets/sources/img/latest.png'); ?>" class="img-nav" alt="SAO" width="150px" heigh="150px" style="position:relative; top:10px;"></center></a>
               </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#" style="font-size: 12px;">Home</a></li>
