@@ -1,102 +1,56 @@
-
-
     <!--Footer-->
+     
+<!--Footer-->
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Navigation</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">Recipe</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>News Letter</h5>
+                    <h6> Enter your email address and subscribe daily newsletter</h6>
+                        <div class="col-sm-8">
+                          <input class="form-control transparent-input" type="text" placeholder="Email Address">
+                        </div>
+                        <div class="col-sm-4">
+                          <button type="button" class="btn btn-warning">SUSCRIBE</button>
+                        </div>
+                        <div class="col-sm-6">
+                           <div class="social-networks">
+                              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                              <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                          </div> 
+                        </div>     
+                </div>
+                  <div class="col-sm-4">
+                      <h5>Our app avilable</h5>
+                        <p><a href="#" class="btn btn-app-store"><i class="fa fa-apple"></i> <span class="small">Available on the</span> <span class="big">App Store</span></a></p>
+                        <a class="btn btn-success big-btn android-btn" href="#">
+                        <img width="55px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png"><div class="btn-text"><small>Get it on</small><br><strong>Google Play</strong></div></a>        
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2016 Copyright Text </p>
+        </div>
 
-   <!--   <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
-      
-          <!--Footer Links-->
-        <!--  <div class="container text-center text-md-left">
-              <div class="row">
-      
-                  <!--First column-->
-             <!--     <div class="col-md-4">
-                      <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Footer Content</h5>
-                      <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                          amet, consectetur adipisicing elit.</p>
-                  </div>
-                  <!--/.First column-->
-      
-                 <!-- <hr class="clearfix w-100 d-md-none">
-      
-                  <!--Second column-->
-                  <!--<div class="col-md-2 mx-auto">
-                      <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                      <ul class="list-unstyled">
-                          <li><a href="#!">Link 1</a></li>
-                          <li><a href="#!">Link 2</a></li>
-                          <li><a href="#!">Link 3</a></li>
-                          <li><a href="#!">Link 4</a></li>
-                      </ul>
-                  </div>
-                  <!--/.Second column-->
-      
-          <!--        <hr class="clearfix w-100 d-md-none">
-      
-                  <!--Third column-->
-               <!--   <div class="col-md-2 mx-auto">
-                      <h5 class="text-uppercase mb-4 mt-3 font-weight-bold">Links</h5>
-                      <ul class="list-unstyled">
-                          <li><a href="#!">Link 1</a></li>
-                          <li><a href="#!">Link 2</a></li>
-                          <li><a href="#!">Link 3</a></li>
-                          <li><a href="#!">Link 4</a></li>
-                      </ul>
-                  </div>
-                  <!--/.Third column-->
-      
-                  <!--<hr class="clearfix w-100 d-md-none">
-      
-                  <!--Fourth column-->
-                  <!--<div class="col-md-2 mx-auto">
-                      <h5 class="text-uppercase mb-4 mt-3 font-weight-bold ">Links</h5>
-                      <ul class="list-unstyled">
-                          <li><a href="#!">Link 1</a></li>
-                          <li><a href="#!">Link 2</a></li>
-                          <li><a href="#!">Link 3</a></li>
-                          <li><a href="#!">Link 4</a></li>
-                      </ul>
-                  </div>
-                  <!--/.Fourth column-->
-              <!--</div>
-          </div>
-          <!--/.Footer Links-->
-      
-          <!--<hr>
-      
-          <!--Call to action-->
-          <!--<div class="text-center py-3">
-              <ul class="list-unstyled list-inline mb-0">
-                  <li class="list-inline-item">
-                      <h5 class="mb-1">Register for free</h5>
-                  </li>
-                  <li class="list-inline-item"><a href="#!" class="btn btn-danger btn-rounded">Sign up!</a></li>
-              </ul>
-          </div>
-          <!--/.Call to action-->
-      
-          <!--<hr>
-      
-          <!--Social buttons-->
-          <!--<div class="text-center">
-              <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item"><a class="btn-floating btn-sm btn-fb mx-1"><i class="fa fa-facebook"> </i></a></li>
-                  <li class="list-inline-item"><a class="btn-floating btn-sm btn-tw mx-1"><i class="fa fa-twitter"> </i></a></li>
-                  <li class="list-inline-item"><a class="btn-floating btn-sm btn-gplus mx-1"><i class="fa fa-google-plus"> </i></a></li>
-                  <li class="list-inline-item"><a class="btn-floating btn-sm btn-li mx-1"><i class="fa fa-linkedin"> </i></a></li>
-                  <li class="list-inline-item"><a class="btn-floating btn-sm btn-dribbble mx-1"><i class="fa fa-dribbble"> </i></a></li>
-              </ul>
-          </div>
-          <!--/.Social buttons-->
-      
-          <!--Copyright-->
-          <!--<div class="footer-copyright py-3 text-center">
-              <div class="container-fluid">
-                  © 2017 Copyright: <a href="https://mdbootstrap.com/material-design-for-bootstrap/"> MDBootstrap.com </a>
-      
-              </div>
-          </div>
-          <!--/.Copyright-->
-      
-      <!--</footer>
+</footer>
+<!--/.Footer-->
+                      
       <!--/.Footer-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      </body>
 
+</html>
