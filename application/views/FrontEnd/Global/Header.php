@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?= base_url('assets/sources/css/bootstrap.min.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/sources/css/Fernanda.css'); ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/sources/css/Ereo.css'); ?>">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   
 </head>

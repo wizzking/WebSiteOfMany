@@ -14,3 +14,29 @@
 .ourCooks-gallery{margin: 10px;border: 1px solid #ccc;display:inline-block; width: 180px; background-color: white; }
 .ourCooks-gallery img {width: 100%;height: 100%;}
 .ourCooks-desc {padding: 15px;text-align: center;}
+.speciality{width: 100%; display: inline-block; max-height: 930px;}
+.grey{background-color: #ecf1f4;}
+.imgSpeciality{float: left; width: 40%; max-width:572px;  margin-right: 0px;}
+.imgSpeciality img{ width: 100%; }
+.textSpeciality{float: left; width: 40%; margin-left: 0px;}
+.textSpeciality h3,p{ padding-top: 10px;}
+.textSpeciality p{color: grey;}
+.pointSpeciality{color:black!important; }
+.titleSpeciality{font-weight: bold; color: black;}
+.pointSpeciality{font-weight: bold;}
+.openingHours{margin-top: 4%;margin-bottom: 5%;font-weight: bold;}
+.openingHours h3{width: 30%; display: inline; margin-right: 200px; font-size: 25px; color: black;}
+.openingHours p{width: 30%; display: inline-block; color: #fea100; font-size: 20px;}
+.openingHours small{display: inline-block; color: gray;}
+ hr{padding-top: 0px;padding-top: 0px;margin: 0px;}
+ .carousel-inner{margin-bottom: 10px; padding-bottom: 5%;}
+.carousel-indicators{bottom: 10px;} 
+.carousel-indicators li{background-color: grey;}
+.carousel-indicators .active{background-color: #fea100;}
+
+/*CSS DE MENU*/
+.MenuOptions{width: 100%; }
+.option{display: inline-block;  margin-right: 5%;}
+.option:hover{
+	cursor: pointer;
+}

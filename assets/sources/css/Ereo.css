@@ -1,0 +1,74 @@
+#banner{
+	max-height: 250px;
+	max-width: 1970px;
+	width: 100%;
+	background: #7d8587;
+}
+
+#fechapost{
+	border: 10px; 
+	border-top: 10px solid #fff; 
+	width: 80px; 
+	background: orange; 
+	text-align: center;
+  	border-right: 10px solid #fff;
+ 	border-bottom: 10px solid #fff;
+  	border-left: 10px solid #fff;
+  	border-style: double ;
+  	border-color: #fff; 
+  	margin-top: 5px; 
+  	margin-bottom: 1px; 
+  	margin-right: 1px; 
+  	margin-left: 3px;
+}
+
+#contimagen{
+	height: 340px;
+	width: 590px;
+}
+
+#botonview{
+	background: #ffeac5; 
+	border: 0; 
+	color: #e48800;
+}
+
+#pagination{
+	background: #ffffff; 
+	width: 100%; 
+	margin-top: 0%;
+}
+
+#next{
+	background: orange; 
+	color: #ffffff;
+}
+
+#pagnum{
+	color: black;
+}
+
+#prev{
+	background: #ffeac5; 
+	color: #fea100;
+}
+
+#openingcont{
+	background: #edf1f3; 
+	width: 100%; 
+	margin-top: 0%;
+}
+
+#alingopen{
+	text-align: right;
+}
+
+#alingleft{
+	text-align: left;
+}
+#alingcenter{
+	text-align: center;
+}
+#hora{
+	color: orange;
+}
