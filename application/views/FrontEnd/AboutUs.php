@@ -1,7 +1,11 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
 	<link rel="stylesheet" type="text/css" href="../../assets/sources/css/TomEliezer.css">
-	<div class="container header" id="header-aboutUs">
-		<img id="img-header-AboutUS"  src="../../assets/sources/img/ImgHeaderAboutUS.jpg">
+	<div class="container headerr" id="header-aboutUs">
+		<span>
+			<img src="../../assets/sources/img/florderecha.png" class="florderecha">
+			<h1 class="AboutUs">About Us</h1>
+			<img src="../../assets/sources/img/florizquierda.png" class="florizquierda">
+		</span>
 	</div>
 	<div class="container ourHistory">
 			<h2><strong>Our History</strong></h2>
