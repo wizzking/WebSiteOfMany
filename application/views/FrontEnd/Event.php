@@ -2,10 +2,10 @@
 
 
 
-<div class="container" style="max-height: 250px;max-width: 1970px;width: 100%;">
+<div class="container" id="banner">
 	<div class="row" >
 
-		<div id="imagenes" style=" background: #7d8587;">
+		<div id="imagenes">
 
 			<div id="contimagen">
 				<img  src="../../assets/sources/img/banner.png"></img>
@@ -21,21 +21,15 @@
 		<div class="row">
 			<div class="col-md-1" ></div>
 			<div class="col-md-1" ></div>
-			<div class="col-md-1" >
-
-						<div  style="border: 10px; border-top: 10px solid #fff; width: 80px; background: orange; text-align: center;
-  border-right: 10px solid #fff;
-  border-bottom: 10px solid #fff;
-  border-left: 10px solid #fff;
-  border-style: double ;
-  border-color: #fff; margin-top: 5px; margin-bottom: 1px; margin-right: 1px; margin-left: 3px;">
-							<label>08</label>
-							<p>NOV</p>
-							<p>2016</p>
-						</div>
+			<div class="col-md-1">
+				<div id="fechapost">
+					<label>08</label>
+					<p>NOV</p>
+					<p>2016</p>
+				</div>
 			</div>	
 
-			<div class="col-md-3" id="contimagen" style="height: 340px;width: 590px; ">
+			<div class="col-md-3" id="contimagen">
 				<img  src="../../assets/sources/img/post.jpg" ></img>
 			</div>
 
@@ -54,7 +48,7 @@
 				</p>
 				<br>
 				<br>
-				<button type="button" class="btn btn-lg btn-primary" disabled="disabled" style="background: #ffeac5; border: 0; color: #e48800; ">VIEW EVENT DETAILS</button>
+				<button type="button" class="btn btn-lg btn-primary" id="botonview">VIEW EVENT DETAILS</button>
 			</div>
 
 		</div>
@@ -63,19 +57,14 @@
 			<div class="col-md-1" ></div>
 			<div class="col-md-1" ></div>
 			<div class="col-md-1" >
-				<div  style="border: 10px; border-top: 10px solid #fff; width: 80px; background: orange; text-align: center;
-  border-right: 10px solid #fff;
-  border-bottom: 10px solid #fff;
-  border-left: 10px solid #fff;
-  border-style: double ;
-  border-color: #fff; margin-top: 5px; margin-bottom: 1px; margin-right: 1px; margin-left: 3px;">
+				<div id="fechapost">
 					<label>08</label>
 					<p>NOV</p>
 					<p>2016</p>
 				</div>
 			</div>	
 
-			<div class="col-md-3" id="contimagen" style="height: 340px;width: 590px; ">
+			<div class="col-md-3" id="contimagen">
 				<img  src="../../assets/sources/img/post.jpg" ></img>
 			</div>
 
@@ -94,7 +83,7 @@
 				</p>
 				<br>
 				<br>
-				<button type="button" class="btn btn-lg btn-primary" disabled="disabled" style="background: #ffeac5; border: 0; color: #e48800; ">VIEW EVENT DETAILS</button>
+				<button type="button" class="btn btn-lg btn-primary" id="botonview">VIEW EVENT DETAILS</button>
 			</div>
 
 		</div>
@@ -102,20 +91,16 @@
 		<div class="row">
 			<div class="col-md-1" ></div>
 			<div class="col-md-1" ></div>
+
 			<div class="col-md-1" >
-				<div  style="border: 10px; border-top: 10px solid #fff; width: 80px; background: orange; text-align: center;
-  border-right: 10px solid #fff;
-  border-bottom: 10px solid #fff;
-  border-left: 10px solid #fff;
-  border-style: double ;
-  border-color: #fff; margin-top: 5px; margin-bottom: 1px; margin-right: 1px; margin-left: 3px;">
+				<div  id="fechapost">
 					<label>08</label>
 					<p>NOV</p>
 					<p>2016</p>
 				</div>
 			</div>	
 
-			<div class="col-md-3" id="contimagen" style="height: 340px;width: 590px; ">
+			<div class="col-md-3" id="contimagen">
 				<img  src="../../assets/sources/img/post.jpg" ></img>
 			</div>
 
@@ -134,45 +119,45 @@
 				</p>
 				<br>
 				<br>
-				<button type="button" class="btn btn-lg btn-primary" disabled="disabled" style="background: #ffeac5; border: 0; color: #e48800; ">VIEW EVENT DETAILS</button>
+				<button type="button" class="btn btn-lg btn-primary" id="botonview">VIEW EVENT DETAILS</button>
 			</div>
 
 		</div>
 
 </div>
 <br>
-<div class="container" style=" background: #ffffff; width: 100%; margin-top: 0%">
+<div class="container" id="pagination">
 	<div class="row">
 
 		<ul class="pager">
-		  <li ><a href="#" style="background: orange; color: #ffffff"  >< NEXT</a></li>
-		  <li><a href="#" style="color: black;">1-3</a></li>
-		  <li><a href="#" style="color: black;">3-9</a></li>
-		  <li><a href="#" style="color: black;">9-12</a></li>
-		  <li><a href="#" style="background: #ffeac5; color: #fea100">PREV ></a></li>
+		  <li ><a href="#" id="next"  >< NEXT</a></li>
+		  <li><a href="#" id="pagnum">1-3</a></li>
+		  <li><a href="#" id="pagnum">3-9</a></li>
+		  <li><a href="#" id="pagnum">9-12</a></li>
+		  <li><a href="#" id="prev">PREV ></a></li>
 		</ul>
 		
 	</div>
 </div>
 <br>
-<div class="container" style=" background: #edf1f3; width: 100%; margin-top: 0%">
+<div class="container" id="openingcont">
 	<div class="row">
 
 
-			<div class="col-md-4" style="text-align: right;">
+			<div class="col-md-4" id="alingopen">
 				<label>Opening Hours</label>
 			</div>
 
-			<div class="col-md-4" style="text-align: center;">
+			<div class="col-md-4" id="alingcenter">
 				<label>Monday to Friday</label>
 				<br>
-				<label style="color: orange;">10am - 10pm</label>
+				<label id="hora">10am - 10pm</label>
 			</div>
 
-			<div class="col-md-4" style="text-align: left;">
+			<div class="col-md-4" id="alingleft">
 				<label>Saturday to Sunday</label>
 				<br>
-				<label style="color: orange;" >09am - 11pm</label>
+				<label id="hora" >09am - 11pm</label>
 			</div>
 
 	</div>
