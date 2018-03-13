@@ -103,6 +103,11 @@ input.form-control
     padding: 5px 5px 5px 25px;
 }
 
+span.input-group-addon
+{
+    background-color: transparent;
+}
+
 
 
 @media screen and (max-width: 767px) {
@@ -182,3 +187,51 @@ text-shadow: none;
 color: #fff;
 line-height: 10px;
 }
+
+.elemento {
+    width: 100%;
+}
+
+table {
+    font-style: normal;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+    font-size: 9pt;
+    color: #323537;
+    text-align: center;
+    align-content:center;
+    align-items: center;
+}
+
+table {
+    background-color: transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+
+table {
+    border-width: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
