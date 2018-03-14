@@ -7,20 +7,23 @@
                 <div class="col-sm-4">
                     <h5>Navigation</h5>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Reservation</a></li>
-                        <li><a href="#">Recipe</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/Home">Home</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/AboutUs">About us</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/Menu">Menu</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/Reservation">Reservation</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/Recipies">Recipe</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/Blog">Blog</a></li>
+                        <li><a href="/WebSiteOfMany/index.php/Restaurante/ContactUs">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4">
                     <h5>News Letter</h5>
                     <h6> Enter your email address and subscribe daily newsletter</h6>
                         <div class="col-sm-8">
-                          <input class="form-control transparent-input" type="text" placeholder="Email Address">
+                          <div class="input-group input-group-sm">
+                            <span class="input-group-addon form" id="sizing-addon3"><img src="<?= base_url('assets/sources/img/carta.png'); ?>" width="15px;"></span>
+                            <input type="text" class="form-control" placeholder="Email Address" aria-describedby="sizing-addon3">
+                          </div>
                         </div>
                         <div class="col-sm-4">
                           <button type="button" class="btn btn-warning">SUSCRIBE</button>
@@ -39,10 +42,19 @@
                         <a class="btn btn-success big-btn android-btn" href="#">
                         <img width="55px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png"><div class="btn-text"><small>Get it on</small><br><strong>Google Play</strong></div></a>        
                 </div>
+                <div class="col-xs-12">
+                    <table style="width:95%">
+                          <tr>
+                            <td><hr class="divHR"/></td>
+                            <td style="width:1px; padding: 0 50px; white-space: nowrap;" class="ahCentre">
+                                    <span style="color: gray;">2016 ® </span> <span style= "color: white;">LUXURY RESTAURANT, </span> <span style= "color: gray;"> ALL RIGHTS RESERVED</span>
+                            </td>
+                            <td><hr class="divHR"/></td>
+                          </tr>
+                    </table>​
+                    
+                </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <p>© 2016 Copyright Text </p>
         </div>
 
 </footer>
