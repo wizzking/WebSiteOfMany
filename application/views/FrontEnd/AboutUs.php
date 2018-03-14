@@ -1,12 +1,23 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
 	<link rel="stylesheet" type="text/css" href="../../assets/sources/css/TomEliezer.css">
-	<div class="container headerr" id="header-aboutUs">
-		<span>
-			<img src="../../assets/sources/img/florderecha.png" class="florderecha">
-			<h1 class="AboutUs">About Us</h1>
-			<img src="../../assets/sources/img/florizquierda.png" class="florizquierda">
-		</span>
+	<div class="headerr" id="header-aboutUs">
+		<div class="row AboutUsTitle">
+			<div class="col-md-5 arrowrigth">
+				<img src="../../assets/sources/img/florderecha.png" class="florderecha">
+			</div>
+			<div class="col-md-2 AboutTxt">
+				<h1 class="AboutUs">About Us</h1>
+			</div>
+			<div class="col-md-5 arrowleft">
+				<img src="../../assets/sources/img/florizquierda.png" class="florizquierda">
+			</div>						
+		</div>
+			
+			
+			
+		
 	</div>
+
 	<div class="container ourHistory">
 			<h2><strong>Our History</strong></h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -21,6 +32,7 @@
 		</video>
 		<p>OUR HOTEL VIDEO</p>
 	</div>
+	
 	<div class="container ourCooks" id="ourCooks">
 		<h3>Our Cooks</h3>
 		<div id="myCarousel" class=" container-gallery carousel slide" data-ride="carousel">
@@ -29,43 +41,43 @@
 		    <div class="carousel-inner">
 		      <div class="item active">
 		      	<div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef1.jpg" id="chefImg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc " id="chefText">Ferran Adria</div>
 				</div>
 				 <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef2.jpg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Gordon Ramsay</div>
 				</div>
 				 <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef3.jpg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Alain Ducasse</div>
 				</div>
 				 <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef4.jpg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Paul Bocuse</div>
 				</div>
 		      </div>
 		      <div class="item">
 		        <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef5.jpg"  >
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Jamie Oliver</div>
 				</div>
 		      </div>
 		      <div class="item">
 		        <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef6.jpg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Juan Maria Arzak</div>
 				</div>
 		        <div class="ourCooks-gallery">
-					<img src="../../assets/sources/img/prueba.png"  >
+					<img src="../../assets/sources/img/chefs/chef7.jpg">
 					<hr>
-					<div class="ourCooks-desc ">Chef.JONH CLIFE</div>
+					<div class="ourCooks-desc ">Massino Bottura</div>
 				</div>
 		      </div>
 		    </div>
@@ -81,7 +93,7 @@
 
 	<div class="container speciality">
 		<div class="imgSpeciality">
-			<img src="../../assets/sources/img/prueba.png">
+			<img src="../../assets/sources/img/speciality/Speciality.jpg">
 		</div>
 		<div class="textSpeciality" >
 			<h3 class="titleSpeciality" id="titleSpeciality">Speciality</h3>

@@ -34,37 +34,82 @@
 			</div>
 		</center>											
 	</div>
-	<div class="FoodOptions" id="FoodOptions">
-		<div class="ourCooks-gallery pizza" id="pizza">
-			<img src="../../assets/sources/img/prueba.png"  >
-			<hr>
-			<div class="ourCooks-desc ">Pizza con peperoni</div>
-		</div>
-			<div class="ourCooks-gallery soup" id="soup">
-			<img src="../../assets/sources/img/prueba.png"  >
-			<hr>
-			<div class="ourCooks-desc ">caldo de pollo</div>
-		</div>
-			<div class="ourCooks-gallery snack" id="snack">
-			<img src="../../assets/sources/img/prueba.png"  >
-			<hr>
-			<div class="ourCooks-desc ">sabritas</div>
-		</div>
-		<div class="ourCooks-gallery dinner" id="dinner">
-			<img src="../../assets/sources/img/prueba.png"  >
-			<hr>
-			<div class="ourCooks-desc ">chilaquiles</div>
-		</div>
-		<div class="ourCooks-gallery breakfast" id="breakfast" >
-			<img src="../../assets/sources/img/prueba.png"  >
-			<hr>
-			<div class="ourCooks-desc ">Huevo con jamon</div>
-		</div>
+	<div class="container FoodOptions row" id="FoodOptions">
+			<div class="col-md-offset-1 ">
+				<div class="menu-gallery pizza" id="pizza">
+					<img src="../../assets/sources/img/food/pizza.jpg"  >
+					<div class="menu-desc ">
+						<h5><b>Pizza con peperoni</b><br><small>ta buena</small></h5>
+						<hr>
+						<p class="costFood">$68.00</p>
+						<hr>
+					</div>
+				</div>
+				<div class="menu-gallery soup" id="soup">
+					<img src="../../assets/sources/img/food/sopa.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>caldo de pollo</b><br><small>Buena pa la gripe</small></h5>
+						<hr>
+						<p class="costFood">$68.00</p>
+						<hr> 
+					</div>
+				</div>
+				<div class="menu-gallery snack" id="snack">
+					<img src="../../assets/sources/img/food/creppa.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>creppa<b><br><small>Deliciosa y dulce!</small></h5>
+						<hr>
+						<p class="costFood">$30.00</p>
+						<hr>
+					</div>
+				</div>
+				<div class="menu-gallery pizza" id="pizza">
+					<img src="../../assets/sources/img/food/pizza2.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>Pizza con salchica<b><br><small>Buena para la cruda!</small></h5>
+						<p class="costFood">$100.00</p>
+					</div>
+				</div>
+				<div class="menu-gallery lunch" id="lunch">
+					<img src="../../assets/sources/img/food/mollete.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>mollete<b><br><small>Rico antojo mexicano!</small></h5>
+							<p class="costFood">$10.00</p>
+					</div>
+				</div>
+				<div class="menu-gallery snack" id="snack">
+					<img src="../../assets/sources/img/food/hotcakes.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>hotcakes<b><br><small>Para un dulce desayuno!</small></h5>
+						<p class="costFood">$15.00</p>
+					</div>
+				</div>
+				<div class="menu-gallery dinner" id="dinner">
+					<img src="../../assets/sources/img/food/chilaquiles.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>chilaquiles<b><br><small>el desayuno mas mexicano!</small></h5>
+						<p class="costFood">$45.00</p>
+					</div>
+				</div>
+				<div class="menu-gallery breakfast" id="breakfast" >
+					<img src="../../assets/sources/img/food/ratatui.jpg"  >
+					<hr>
+					<div class="menu-desc ">
+						<h5><b>ratatui<b><br><small>Como hecho en casa!</small></h5>
+						<p class="costFood">$50.00</p>
+					</div>
+				</div>				
+			</div>
 	</div>
-
 	<div class="container speciality grey">
 		<div class="imgSpeciality">
-			<img src="../../assets/sources/img/prueba.png">
+			<img src="../../assets/sources/img/speciality/Speciality.jpg">
 		</div>
 		<div class="textSpeciality" >
 			<h3 class="titleSpeciality" id="titleSpeciality">Speciality</h3>
@@ -75,5 +120,10 @@
 			<p class="pointSpeciality" id="point3Speciality">FREE HOME DELIVERY</p>
 			<p id="description3Speciality">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 		</div>
+	</div>
+	<div class="container openingHours">
+			<h3 >Opening Hourss</h3>
+			<p><small>Monday to Friday</small><br/>10am-10pm</p>
+			<p><small>Saturday to Sunday</small><br/>9am-11pm</p>
 	</div>
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>
