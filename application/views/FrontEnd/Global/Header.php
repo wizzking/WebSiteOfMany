@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/sources/css/Fernanda.css'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/sources/css/Ereo.css'); ?>">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
 </head>
 <body>
@@ -24,7 +25,7 @@
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Reservation" style="font-size: 12px;">RESERVATION</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Event" style="font-size: 12px;">EVENTS</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Recipies" style="font-size: 12px;">RECIPE</a></li>
-      <li><a href="/WebSiteOfMany/index.php/Restaurante/Blog" style="font-size: 12px;">BLOG</a></li>
+      <li><a href="/WebSiteOfMany/index.php/Restaurante/BlogDetail" style="font-size: 12px;">BLOG</a></li>
       <li><a href="#" style="font-size: 12px;">PAGES</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/ContactUs" style="font-size: 12px;">CONTACT</a></li>
     </ul>
