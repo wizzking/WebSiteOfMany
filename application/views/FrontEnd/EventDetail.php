@@ -79,7 +79,7 @@
 			<div class="col-md-6 col-md-offset-3">
 				<hr style="border-color: grey; border-width: 1px;" > 
 				<ul class="pager">
-				  <li ><a class="paginado" href="#">Previous</a></li>
+				  <li ><a style="background-color: #ffeac5; color: orange;" href="#">Previous</a></li>
 				  <li ><a style="background-color: #ffeac5; color: orange;" href="#">Next</a></li>
 				</ul>
 				<hr style="border-color: grey; border-width: 1px;" >
