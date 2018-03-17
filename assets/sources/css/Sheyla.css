@@ -1,31 +1,31 @@
-.EncabezadoRecipies{background-color: gray; height: 150px;}
 .header img{max-height: 250px;max-width: 1970px;height: 100%;width: 100%;}
 h1 {text-align: center;font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
     font-size: 30px;font-style: normal;font-variant: normal;font-weight: 500;line-height: 26.4px;
     font: bold 30px;color: white;}
 h4{text-align: center;font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
   font-size: 20px;font-style: normal;font-variant: normal;font-weight: 500;line-height: 15.4px;}
-.DivImagen{background-color: gray; width: 700px;  height: 300px; position: absolute; left: 50%;}
-.prueba{
-	    background-color: gray;
-		width:100px;
-		margin-left:-200px;
-		height:100px;
-		margin-top:-150px;
-		border:10px solid #808080;
-		padding:5px;}
+label{text-align: center;font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  font-size: 20px;font-style: normal;font-variant: normal;font-weight: 500;line-height: 15.4px;}
+  
+.prueba{background-color: gray; width:100px; margin-left:-200px; height:100px; margin-top:-150px;
+		border:10px solid #808080; padding:5px;}
 .recipie{text-align: center;}
 .openingHours{margin-top: 4%; font-weight: bold;}
 .openingHours h3{width: 30%; display: inline; margin-right: 200px; font-size: 25px; color: black;}
 .openingHours p{width: 30%; display: inline-block; color: #fea100; font-size: 20px;}
 .openingHours small{display: inline-block; color: gray;}
-
-.FeaturedRecipies{background-color: gray;}
+.FeaturedRecipies{background-color: gray; border-radius: 5px;}
+.Nutrition{background-color: #F9F8F2; border-radius: 5px;}
 .Ingredientes{text-align: center;width: 50%;}
-#ingredientes{
-	font-family: Verdana;
-	font-size: 20px;
-}
-
-label{text-align: center;font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-  font-size: 20px;font-style: normal;font-variant: normal;font-weight: 500;line-height: 15.4px;}
+#ingredientes{ font-family: Verdana; font-size: 20px;}
+.datosImagen{ background-color: #D4D9DA;}
+.back{background-color: #EAEEEE;}
+.col-centrada{float: none; margin-left: auto; margin-right: auto;}
+.contenedor{position: relative; display: inline-block; text-align: center;}
+.texto{text-align: center;font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+font-size: 30px;font-style: normal;font-variant: normal;font-weight: 500;line-height: 15.4px;
+color: white;position: absolute; top: 45px; left: 300px;}
+.cuadros{ width: 50px; height: 50px; background-color: #D87D23; font-size: 20px; color: white; position: absolute; 
+top: 70px; left: 300px;}
+.texto-cuadros{text-align: center;font-family: Verdana;
+color: white;position: absolute; top: 90px; left: 380px; color: white;}
