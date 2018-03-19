@@ -139,28 +139,6 @@
 		
 	</div>
 </div>
-<br>
-<div class="container" id="openingcont">
-	<div class="row">
-
-
-			<div class="col-md-4" id="alingopen">
-				<label>Opening Hours</label>
-			</div>
-
-			<div class="col-md-4" id="alingcenter">
-				<label>Monday to Friday</label>
-				<br>
-				<label id="hora">10am - 10pm</label>
-			</div>
-
-			<div class="col-md-4" id="alingleft">
-				<label>Saturday to Sunday</label>
-				<br>
-				<label id="hora" >09am - 11pm</label>
-			</div>
-
-	</div>
-</div>
+<?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

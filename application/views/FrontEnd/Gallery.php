@@ -61,6 +61,7 @@
     <li><a href="#" style="background-color: #e2ad56">5</a></li>
   </ul>
 </div>
+<?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 
 
     <?php $this->load->view('FrontEnd/Global/Footer'); ?>
