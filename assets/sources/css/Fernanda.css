@@ -252,7 +252,7 @@ table {
 .menu-desc {background-color: white; padding: 10px; border: 1px solid #ccc;}
 
 .chefHead{width: 100%; margin-top: 20px;}
-/*.headChef img{width: 500px; height: 300px;}*/
+.subHeadChef img{width: 400px; height: 300px;}
 .speciality{width: 50%; display: inline-block; height: auto; }
 .imgSpeciality{float: left; width: 45%; margin-right: 0px; height: 100%;}
 .imgSpeciality > img{ width: 100%; height: 100%; }
@@ -297,11 +297,6 @@ table {
 .MenuOptions{width: 10%; }
 .option{display: inline-block;  margin-right: 5%;}
 .option:hover{cursor: pointer;}
-img .icon{
-    width: 1px;
-    height: 2px;
-}
-
 #form1 {
     margin-bottom: 50px;
 }
