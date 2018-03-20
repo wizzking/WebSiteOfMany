@@ -95,7 +95,7 @@
 		<div class="imgSpeciality">
 			<img src="../../assets/sources/img/speciality/Speciality.jpg">
 		</div>
-		<div class="textSpeciality" >
+		<div class="textSpeciality" style="background-image: ">
 			<h3 class="titleSpeciality" id="titleSpeciality">Speciality</h3>
 			<p class="pointSpeciality" id="point1Speciality">Excelent Service</p>
 			<p  id="description1Speciality">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -106,12 +106,7 @@
 		</div>
 	</div>
 	<hr>
-	<div class="container openingHours">
-			<h3 >Opening Hourss</h3>
-			<p><small>Monday to Friday</small><br/>10am-10pm</p>
-			<p><small>Saturday to Sunday</small><br/>9am-11pm</p>
-	</div>
-
+	<?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 
 
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

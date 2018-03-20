@@ -25,7 +25,7 @@
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Reservation" style="font-size: 12px;">RESERVATION</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Event" style="font-size: 12px;">EVENTS</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/Recipies" style="font-size: 12px;">RECIPE</a></li>
-      <li><a href="/WebSiteOfMany/index.php/Restaurante/BlogDetail" style="font-size: 12px;">BLOG</a></li>
+      <li><a href="/WebSiteOfMany/index.php/Restaurante/Blog" style="font-size: 12px;">BLOG</a></li>
       <li><a href="#" style="font-size: 12px;">PAGES</a></li>
       <li><a href="/WebSiteOfMany/index.php/Restaurante/ContactUs" style="font-size: 12px;">CONTACT</a></li>
     </ul>

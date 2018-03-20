@@ -147,7 +147,7 @@ body{
     background: #626160;
     color: #fff;
     position: relative;
-    height: 60px;
+    height: 50px;
     padding-left: 55px;
     padding-right: 20px;
 }
@@ -245,6 +245,63 @@ table {
     margin-top: 50px;
 }
 
+.chefOptions{width: 100%; margin-top: 20px;}
+.menu-gallery{margin: 10px;border: 1px solid #ccc;display:inline-block; width: 200px; height: 205px; 
+              background-color: white; margin-bottom: 100px;}
+.menu-gallery img {width: 100%;height: 100%;}
+.menu-desc {background-color: white; padding: 10px; border: 1px solid #ccc;}
 
+.chefHead{width: 100%; margin-top: 20px;}
+/*.headChef img{width: 500px; height: 300px;}*/
+.speciality{width: 50%; display: inline-block; height: auto; }
+.imgSpeciality{float: left; width: 45%; margin-right: 0px; height: 100%;}
+.imgSpeciality > img{ width: 100%; height: 100%; }
+.textSpeciality{float: right; width: 50%;}
+.textSpeciality h3,p{ padding-top: 10px;}
+.textSpeciality {background:url("assets/sources/img/fondo7.jpg");}
 
+#form1 a:hover,
+#form1 a:focus {
+    text-decoration: none;
+    color: black;
+}
 
+#form1 .social-networks {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#form1 .social-networks a {
+    font-size: 25px;
+    color: gray;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#form1 .social-networks a:hover {
+    text-decoration: none;
+}
+
+#form1 .facebook:hover {
+    color: #0077e2;
+}
+
+#form1 .google:hover {
+    color: #ef1a1a;
+}
+
+#form1 .twitter:hover {
+    color: #00aced;
+}
+
+.MenuOptions{width: 10%; }
+.option{display: inline-block;  margin-right: 5%;}
+.option:hover{cursor: pointer;}
+img .icon{
+    width: 1px;
+    height: 2px;
+}
+
+#form1 {
+    margin-bottom: 50px;
+}
