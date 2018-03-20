@@ -39,7 +39,7 @@
                   <div class="col-sm-4">
                       <h5>Our app avilable</h5>
                         <p><a href="#" class="btn btn-app-store"><i class="fa fa-apple"></i> <span class="small">Available on the</span> <span class="big">App Store</span></a></p>
-                        <a class="btn btn-success big-btn android-btn" href="#">
+                        <a class="btn big-btn android-btn" href="#">
                         <img width="55px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png"><div class="btn-text"><small>Get it on</small><br><strong>Google Play</strong></div></a>      
                   </div>
                 <div class="col-xs-12">
