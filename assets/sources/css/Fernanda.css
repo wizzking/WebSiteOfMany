@@ -49,52 +49,6 @@
     text-decoration: none;
 }
 
-#myFooter a:hover,
-#myFooter a:focus {
-    text-decoration: none;
-    color: white;
-}
-
-#myFooter .social-networks {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 16px;
-}
-
-#myFooter .social-networks a {
-    font-size: 32px;
-    color: #f9f9f9;
-    padding: 10px;
-    transition: 0.2s;
-}
-
-#myFooter .social-networks a:hover {
-    text-decoration: none;
-}
-
-#myFooter .facebook:hover {
-    color: #0077e2;
-}
-
-#myFooter .google:hover {
-    color: #ef1a1a;
-}
-
-#myFooter .twitter:hover {
-    color: #00aced;
-}
-
-/*#myFooter .btn {
-    color: white;
-    background-color: #d84b6b;
-    border-radius: 20px;
-    border: none;
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    line-height: 25px;
-}*/
 
 input.form-control
 {
@@ -151,15 +105,15 @@ body{
     padding-left: 55px;
     padding-right: 20px;
 }
-.btn-app-store i{
+.btn-app-store img{
     font-size: 40px;
     position: absolute;
-    left: 10px;
+    left: 5px;
 }
 .btn-app-store .small{
     display: block;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 15px;
     margin-bottom: 2px;
     margin-top: 5px;
 }
@@ -182,6 +136,22 @@ border-color: #626160;
 }
 
 .android-btn strong{
+font-size: 17px;
+text-shadow: none;
+color: #fff;
+line-height: 10px;
+}
+
+.apple-btn{
+
+width: 170px;
+padding: 5px 10px 10px 0px;
+background-color: #626160;
+border-color: #626160;
+
+}
+
+.apple-btn strong{
 font-size: 17px;
 text-shadow: none;
 color: #fff;
@@ -252,13 +222,11 @@ table {
 .menu-desc {background-color: white; padding: 10px; border: 1px solid #ccc;}
 
 .chefHead{width: 100%; margin-top: 20px;}
-.subHeadChef img{width: 400px; height: 300px;}
 .speciality{width: 50%; display: inline-block; height: auto; }
 .imgSpeciality{float: left; width: 45%; margin-right: 0px; height: 100%;}
 .imgSpeciality > img{ width: 100%; height: 100%; }
-.textSpeciality{float: right; width: 50%;}
+.textSpeciality{float: right; width: 58%;}
 .textSpeciality h3,p{ padding-top: 10px;}
-.textSpeciality {background:url("assets/sources/img/fondo7.jpg");}
 
 #form1 a:hover,
 #form1 a:focus {
@@ -294,9 +262,27 @@ table {
     color: #00aced;
 }
 
-.MenuOptions{width: 10%; }
 .option{display: inline-block;  margin-right: 5%;}
 .option:hover{cursor: pointer;}
+
 #form1 {
     margin-bottom: 50px;
+}
+
+
+#fondoLeft{
+    background-image: url("../img/fondo7.jpg");
+}
+
+#input1, #input2, #input3{
+     border: none;
+    background: transparent;
+    border-bottom: 2px solid #e3e3e3;
+    padding: 5px 5px 5px 25px;
+}
+
+#sizing-addon3{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #e3e3e3;
 }
