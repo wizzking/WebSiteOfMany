@@ -102,19 +102,6 @@
 		</div>
 	</div>
 
-<div>
-	<div class="horario">
-		<label><b>Opening Hours</label>
-	</div>	
-	<div class="hor">
-		<label class="indent">Monday to Friday</label>
-		<label class="indent">Saturday to Sunday</label>
-	</div>
-	<dir class="hora">
-		<label class="indent">10am - 10pm</label>
-		<label class="indent">9am - 11pm</label>
-	</dir>	
-</div>	
 
 
 

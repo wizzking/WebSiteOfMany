@@ -134,7 +134,7 @@ ul{
 	top: 350px;
 	left: 900px;
 	width: 15%;
-	height: 35%;
+	height: 3%;
 	position: absolute;
 	font-family: calibri;
 	font-size: 18px;
@@ -165,7 +165,7 @@ ul{
 	top: 950px;
 	left: 400px;
 	width: 15%;
-	height: 35%;
+	height: 38%;
 	position: absolute;
 	font-family: calibri;
 	font-size: 18px;
@@ -251,32 +251,6 @@ ul{
 	height: 20%;
 }
 
-.horario{
-
-	font-family:georgia;
-	font-size: 20px;
-	position: absolute;
-	top: 1325px;
-	left: 200px;
-
-}
-
-.hor{
-	font-family: arial;
-	font-size: 20px;
-	color: gray;
-	position: absolute;
-	top: 1300px;
-	left: 370;
-}
-.hora{
-	font-family:georgia;
-	font-size: 20px;
-	color: #FABA24;
-	position: absolute;
-	top: 1330px;
-	left: 370px;
-}
 
 .titulos{
 	position: absolute;
