@@ -206,9 +206,4 @@
 </div>
 </div>
 
-
-
-  
-
-
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

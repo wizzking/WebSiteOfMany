@@ -1,22 +1,8 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
 	<link rel="stylesheet" type="text/css" href="../../assets/sources/css/TomEliezer.css">
-	<div class="headerr" id="header-aboutUs">
-		<div class="row AboutUsTitle">
-			<div class="col-md-5 arrowrigth">
-				<img src="../../assets/sources/img/florderecha.png" class="florderecha">
-			</div>
-			<div class="col-md-2 AboutTxt">
-				<h1 class="AboutUs">About Us</h1>
-			</div>
-			<div class="col-md-5 arrowleft">
-				<img src="../../assets/sources/img/florizquierda.png" class="florizquierda">
-			</div>						
-		</div>
-			
-			
-			
-		
-	</div>
+	<div class="blog_bg">
+  		<h1 class="blog_titulo"><img src="<?php echo base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?php echo base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha"> Blog</h1>
+  	</div>
 
 	<div class="container ourHistory">
 			<h2><strong>Our History</strong></h2>
@@ -28,9 +14,8 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
 	<div class="container ourHotel" id="ourHotel">
-		<video src="../../assets/sources/video/ourHotel.mp4" loop controls>
-		</video>
-		<p>OUR HOTEL VIDEO</p>
+		<img src="../../assets/sources/img/ourHotel.jpg">
+		<p>OUR HOTEL</p>
 	</div>
 	
 	<div class="container ourCooks" id="ourCooks">
