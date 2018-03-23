@@ -11,7 +11,7 @@
 			<div id="fecha_eventdetail" class="pull-right text-center">
 				<div>
 					<strong>08</strong>
-					<p>NOV <br>2016</p>	
+					<p>NOV<br>2016</p>	
 				</div>			
 			</div>
 		</div>
@@ -104,67 +104,6 @@
 			</div>
 		</div>
 </section>
-	
-<!--
-<div class="panel-body">
-	<div class="pane12">
-		<div class="row">
-			<div id="feature_evento" class="" style="background-color:#f0f0f5; width: 100%; height: 400px;">
-				<div class="col-md-12 col-md-offset-2">
-					<h2>Featured Event</h2>
-				</div>
-				
-				<div class="col-md-2 col-md-offset-2" > 
-					<div>
-						<img  id="imagenprincipal_eventodail"  src="<?php echo base_url('assets/sources/img/Deerek/fondonegro.jpg'); ?>" class="img-fluid" alt="Responsive image" width="240" height="150px">
-					</div>
-					<div  style="background-color: white; width:240px; top:-18px; position: relative;">
-						<h3>Event deading here</h3>
-						<div class="col-md-1 ">
-							<img class=" col-md-offset-0" id="imagenprincipal_eventodail" src="<?php echo base_url('assets/sources/img/Deerek/reloj.jpg'); ?>" class="img-fluid" alt="Responsive image" width="15px" height="15px">
-						</div>
-							<p> <b>La hora va aqui</b></p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore  </p>						
-					</div>
-				</div>
 
-				<div class="col-md-2 col-md-offset-1" > 
-					<div>
-						<img  id="imagenprincipal_eventodail"  src="<?php echo base_url('assets/sources/img/Deerek/fondonegro.jpg'); ?>" class="img-fluid" alt="Responsive image" width="240" height="150px">
-					</div>
-					<div  style="background-color: white; width:240px; top:-18px; position: relative;">
-						<h3>Event deading here</h3>
-						<div class="col-md-1 ">
-							<img class=" col-md-offset-0" id="imagenprincipal_eventodail" src="<?php echo base_url('assets/sources/img/Deerek/reloj.jpg'); ?>" class="img-fluid" alt="Responsive image" width="15px" height="15px">
-						</div>
-							<p> <b>La hora va aqui</b></p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore  </p>					
-					</div>
-				</div>
-
-				<div class="col-md-2 col-md-offset-1" > 
-					<div>
-						<img  id="imagenprincipal_eventodail"  src="<?php echo base_url('assets/sources/img/Deerek/fondonegro.jpg'); ?>" class="img-fluid" alt="Responsive image" width="240" height="150px">
-					</div>
-					<div  style="background-color: white; width:240px; top:-18px; position: relative; ">
-						<h3>Event deading here</h3>
-						<div class="col-md-1 ">
-							<img class=" col-md-offset-0" id="imagenprincipal_eventodail" src="<?php echo base_url('assets/sources/img/Deerek/reloj.jpg'); ?>" class="img-fluid" alt="Responsive image" width="15px" height="15px">
-						</div>
-							<p> <b>La hora va aqui</b></p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore  </p>					
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-</div>
-
-
--->
 <?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

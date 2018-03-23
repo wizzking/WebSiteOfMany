@@ -5,21 +5,22 @@
 	background: #7d8587;
 }
 
-#fechapost{
-	border: 10px; 
-	border-top: 10px solid #fff; 
-	width: 80px; 
-	background: orange; 
-	text-align: center;
-  	border-right: 10px solid #fff;
- 	border-bottom: 10px solid #fff;
-  	border-left: 10px solid #fff;
-  	border-style: double ;
-  	border-color: #fff; 
-  	margin-top: 5px; 
-  	margin-bottom: 1px; 
-  	margin-right: 1px; 
-  	margin-left: 3px;
+.fechapost{
+	background: #fea100;
+}
+.fechapost>div{
+	margin: 3px;
+	border: 1px solid white;
+	color: white;
+	padding: 5px 15px;
+}
+.fechapost>div>strong{
+	font-size: 25px;
+}
+.fechapost>div>p{
+	margin-top: -20px;
+	font-size: 12px;
+	font-weight: bold;
 }
 
 #contimagen{
@@ -31,6 +32,12 @@
 	background: #ffeac5; 
 	border: 0; 
 	color: #e48800;
+	margin-top: 40px;
+	border-radius: 5px !important;
+}
+#botonview:hover{
+	background: #ffb738; 
+	color: #000;
 }
 
 #pagination{
@@ -71,4 +78,59 @@
 }
 #hora{
 	color: orange;
+}
+.blog_bg{position: relative;top:-25px; display: table;height:200px;background: url("../img/banner.png");width: 100%;background-size: 100% 100%;}
+.blog_titulo{text-align: center;vertical-align: middle;display: table-cell;color: white;position: relative;font-size: 50px;font-family: "Times New Roman", Times, serif;}
+img.izquierda {float: left;position: relative;left: 44%;top: 20px;}
+img.derecha {float: right;position: relative;right: 44%;top: 20px;}
+.imgn{
+	width: 100%;
+	height: 100%;
+}
+.dateDe{
+	position: relative;top: -18px;
+}
+#eventhead{
+	font-weight: bold;
+	font-size: 30px;
+}
+#eventcontent{
+	margin-top: -25px;
+}
+.eventContainer{
+	margin-bottom: 80px;
+}
+
+.pager{
+	margin-top: -30px;
+	margin-bottom: 60px;
+}
+.prev-next{
+	border: none;
+	border-radius: 200px !important;
+	padding: 8px 20px;
+	text-transform: uppercase;
+	font-size: 10px;
+	background-color: #ffeac5;
+	margin-right: 5px; 
+	color: #fea100;
+}
+.prev-next>span{
+	font-weight: bold;
+}
+.prev-next:hover{
+	background: #fea100;
+	color: white;
+}
+.midle{
+	background: white;
+	color: #000;
+	border: 1px solid #e3e3e3;
+}
+.midle:hover{
+	background: #f3f3f3;
+	color: #000;
+}
+.opening{
+	background: #edf1f3;
 }

@@ -1,7 +1,7 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
 <link rel="stylesheet" href="<?= base_url('assets/sources/css/reservation.css'); ?>">
 <div class="header">
-	<img src="../../assets/sources/img/imgHeaderBlogDetail4.jpg">
+	<img src="<?= base_url('assets/sources/img/imgHeaderBlogDetail4.jpg'); ?>">
 	<span></span>
 </div>
 
@@ -53,7 +53,7 @@
 			<h3 class="text-center">Special Reservation</h3>
 			<div class="col-md-10 col-md-offset-1">
 				<div class="col-md-4 img-reserv">
-					<img src="../../assets/sources/img/imgHeaderBlogDetail4.jpg" alt="">
+					<img src="<?= base_url('assets/sources/img/imgHeaderBlogDetail4.jpg'); ?>" alt="">
 					<div class="col-xs-12 div-reserv">
 						<h4>Private Dinning</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam illo consectetur aut maiores na</p>
@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 img-reserv">
-					<img src="../../assets/sources/img/imgHeaderBlogDetail4.jpg" alt="">
+					<img src="<?= base_url('assets/sources/img/imgHeaderBlogDetail4.jpg'); ?>" alt="">
 					<div class="col-xs-12 div-reserv">
 						<h4>Private Dinning</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repellendus neque nesciuntdio ea.</p>
