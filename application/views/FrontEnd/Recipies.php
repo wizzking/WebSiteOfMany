@@ -104,5 +104,5 @@
 
 
 
-
+<?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>
