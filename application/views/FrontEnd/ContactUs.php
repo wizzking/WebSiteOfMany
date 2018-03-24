@@ -1,7 +1,11 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
-		<div class="row">
-			<img src="<?php echo base_url('assets/sources/img/gris.jpg'); ?>" height="250px" width="1365px">
-	</div>
+<link rel="stylesheet" href="<?= base_url('assets/sources/css/contactus.css'); ?>">
+
+<div class="blog_bg">
+	<h1 class="blog_titulo"><img src="<?= base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?= base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha">Contact Us</h1>
+</div>
+
+<div class="container">
 	<div class="row" style="margin-top: 50px; margin-bottom: 30px">
 		<div class="container">
 			<div class="col-sm-4">
@@ -14,7 +18,7 @@
 					<h6 style="color: gray;">2nd floor</h6>
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<div class="col-sm-8">
 					<span class="glyphicon glyphicon-earphone" style="margin-top: 55px"></span>
 					<h6><b>PHONE</b></h6>
@@ -22,7 +26,7 @@
 					<h6 style="color: gray;"><b>EMAIL: </b>info@luxury.com</h6>
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<div class="col-sm-8">
 					<img src="<?= base_url('assets/sources/img/icon_share.png'); ?>" style="margin-top: 55px">
 					<h6><b>FOLLOW US</b></h6>
@@ -35,7 +39,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="row" style="background-color: #e2f7e0;">
+</div>
+
+	<div style="background-color: #e2f7e0;">
 		<div class="container"  id="row2">
 			<div class="col-sm-4">
 				<div class="col-sm-8">

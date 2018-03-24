@@ -1,11 +1,15 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
+<link rel="stylesheet" href="<?= base_url('assets/sources/css/chef.css'); ?>">
+<div class="blog_bg">
+	<h1 class="blog_titulo"><img src="<?= base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?= base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha">Chef</h1>
+</div>
 
 <div id="form1">
 	<div class="container">
 		<div class="row">
 			<h3><b>Head Chef</b></h3>
 			<div class="col-sm-6"><img src="<?= base_url('assets/sources/img/chefhead.jpg'); ?>" width="540px" height="300px"></div>
-			<div class="col-sm-6" id="fondoLeft">
+			<div class="col-sm-5" id="fondoLeft">
 				<h3><b>Chef Benito</b></h3>
 					<p><font color="gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit</font></p>
 					<div class="social-networks">
