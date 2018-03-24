@@ -239,8 +239,12 @@ table {
 }
 
 
-#fondoLeft{
-    background-image: url("../img/fondo7.jpg");
+#fondoLeft{ 
+    background-image: url(../img/fondo7.jpg);
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position-y: -30px;
 }
 
 #input1, #input2, #input3{

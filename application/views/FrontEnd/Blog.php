@@ -1,71 +1,55 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
+<link rel="stylesheet" href="<?php echo base_url('assets/sources/css/kemish.css'); ?>">
 
-	<link rel="stylesheet" href="<?php echo base_url('assets/sources/css/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('assets/sources/css/kemish.css'); ?>">
-  <div class="blog_bg">
-  	<h1 class="blog_titulo"><img src="<?php echo base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?php echo base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha"> Blog</h1>
-  </div>
+<div class="blog_bg">
+	<h1 class="blog_titulo"><img src="<?php echo base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?php echo base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha"> Blog</h1>
+</div>
   
+<div class="container">
+  <section class="row">
+    <div class="col-md-7 col-md-offset-1 pictures">
+      
+      <?php foreach (array(1,2,3) as &$value) { ?>
 
+      <div class="row">
+        <img id="imgBlog" src="<?= base_url('assets/sources/img/Deerek/02-1024x423.jpg'); ?>">
+        <div class="col-md-2">
+          <div class="date">
+            <div>
+              <strong>08</strong>
+              <p>NOV-06</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <h2 id="titlePost">Aenean pharetra lectus utsto.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic molestiae perspiciatis dicta saepe, natus, nobis laudantium ea quam porro beatae, enim reiciendis, iste architecto distinctio iusto voluptatem error nostrum eveniet.</p>
 
-  	<!-- contenido del blog-->
+          <?php $this->load->view('FrontEnd/Global/readMore'); ?>
+        </div>
+      </div>
 
-  	<!-- imagen-->
-
-<div>
-  <div class="blog_contenido" id="blog_contenido"><img src=""></div>
-  	<div id="fecha" class="fecha">
-  		<p id="dia" style="position: absolute; font-size: 40px; color: white;">08</p>
-  		<p id="mes" style="position: absolute; color: white; margin-top: 40px; ">nov</p>
-  		<p id="anio" style="position: absolute; color: white; margin-top: 40px; margin-left: 40px; ">06</p>
-  	</div>
-    <div class="titulo">
-      <p style="font-size: 30px; position: relative; top: -60px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p style="position: relative; top: -60px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud.</p>
+      <?php } ?>
+      
     </div>
-    <button class="readmore">Read More</button>
-    <img class="lineas" src="<?php echo base_url('assets/sources/img/lineas.png'); ?>">
-    <img class="like" src="<?php echo base_url('assets/sources/img/like.png'); ?>">
-    <img class="redes" src="<?php echo base_url('assets/sources/img/redes.png'); ?>">
-</div>
-<!-- sidebar -->
-<div class="sidebar">
-  <h3>Category</h4>
-  <ol id="lista2">
-    <li>ALL FOODS</li>
-    <li>VEGETABLES</li>
-    <li>DELICIOUS FOOD</li>
-    <li>SPECIAL DISHES</li>
-    <li>JUICES</li> 
-  </ol>
-</div>
 
-
-<div class="sidebar">
-  <h3>Recent Post</h4>
-    <div class="post">
-      <div style="background-color: gray; height: 70px; width: 70px;"><img src=""></div>
-      <p id="dia" style="position: relative; left: 6%; top: -70px;">08-</p>
-      <p id="mes" style="position: relative; left: 8%; top: -100px;">nov-</p>
-      <p id="anio" style="position: relative; left: 11%; top: -130px;">06</p>
-      <h4 style="font-weight: bold; position: relative; left: 6%; top: -130px;">Lorem ipsum dolor sit amet.</h2>
+    <div class="col-md-3 category">
+      <section class="row">
+        <h4>Category</h4>
+        <ol class="lista2">
+          <li>ALL FOODS</li>
+          <li>VEGETABLES</li>
+          <li>DELICIOUS FOOD</li>
+          <li>SPECIAL DISHES</li>
+          <li>JUICES</li> 
+        </ol>
+      </section>
+      <section class="row">
+        <?php $this->load->view('FrontEnd/Global/recentPost'); ?>
+      </section>
     </div>
-</div>
-<!-- termina sidebar -->
-
-
-<!-- pestañas -->
-<div class="pestanias">
-  <button class="next_prev">< PREV</button>
-  <button class="numeros">1-3</button>
-  <button class="numeros">3-9</button>
-  <button class="numeros">9-12</button>
-  <button class="next_prev">NEXT ></button>
+  </section>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="<?php echo base_url('assets/sources/js/bootstrap.min.js'); ?>"></script> 
 
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

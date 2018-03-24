@@ -37,25 +37,7 @@
 					</ul>
 				</section>
 				<section class="row">
-					<h3><strong>Recent Post</strong></h3>
-					
-					<div class="row lista">
-						<img src="../../assets/sources/img/img70.jpg">
-						<span>08-Nov-2016</span><br>
-						<strong>Suspendisse eu dui libero malesuada</strong>
-					</div>
-
-					<div class="row lista">
-						<img src="../../assets/sources/img/img70.jpg">
-						<span>13-Nov-2016</span><br>
-						<strong>Quisque pellentes turpis si amet</strong>
-					</div>
-					
-					<div class="row lista">
-						<img src="../../assets/sources/img/img70.jpg">
-						<span>20-Nov-2016</span><br>
-						<strong>Suspendisse eu dui libero malesuada</strong>
-					</div>
+					<?php $this->load->view('FrontEnd/Global/recentPost'); ?>
 				</section>
 			</div>
 		</div>
