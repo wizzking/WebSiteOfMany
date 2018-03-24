@@ -44,11 +44,11 @@
                       </div>
                       <div class="form-group">
                         <a class="btn big-btn android-btn" href="#">
-                        <img width="50px" class="pull-left" src="<?= base_url('assets/sources/img/google.png'); ?>"><div class="btn-text"><small>Get it on</small><br><strong>Google Play</strong></div></a>  
+                        <img width="45px" class="pull-left" src="<?= base_url('assets/sources/img/google1.png'); ?>"><div class="btn-text"><small>Get it on</small><br><strong>Google Play</strong></div></a>  
                       </div>
                   </div>
                 <div class="col-xs-12">
-                    <table style="width:95%">
+                    <table style="width:90%">
                           <tr>
                             <td><hr class="divHR"/></td>
                             <td style="width:1px; padding: 0 50px; white-space: nowrap;" class="ahCentre">

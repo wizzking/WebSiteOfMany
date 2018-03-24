@@ -1,56 +1,45 @@
 <?php $this->load->view('FrontEnd/Global/Header'); ?>
-	<div class="header gallery" id="header-gallery">
-		<img id="img-header-Gallery"  src="../../assets/sources/img/Mirtha/gallery.jpg" width="100%" height="100%">
-		<img id="img-header-Gallery"  src="../../assets/sources/img/Mirtha/newgallery.png" width="30%" height="30%" style="position: absolute; top:10%; left: 35%">
-	</div>
+<link rel="stylesheet" href="<?= base_url('assets/sources/css/gallery.css'); ?>">
+<div class="blog_bg">
+  <h1 class="blog_titulo"><img src="<?= base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?= base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha">Gallery</h1>
+</div>
 
+<div class="container ourGallery">
+ <h2><strong>Our Gallery</strong></h2>
+</div>
 
-	
- <div class="container ourGallery" style="font-size: 12px; position: relative; text-align: center;">
- 	 <h2><strong>Our Gallery</strong></h2>
-
-
- </div>
- 	<div >
- 		<ul class="img-gal" >
- 		<img id="img-iconos" src="../../assets/sources/img/Mirtha/photos.png" style="font-size: 12px; position: relative; left:39% ">
- 		<img id="img-iconos"  src="../../assets/sources/img/Mirtha/restaurant.png" style="font-size: 12px; position: relative; left:43.5% ">
- 		<img id="img-iconos"  src="../../assets/sources/img/Mirtha/food.png" style="font-size: 12px; position: relative; left:46.5% ">
- 		<img id="img-iconos"  src="../../assets/sources/img/Mirtha/desserts.png" style="font-size: 12px; position: relative; left:49% ">
- 		
- 		</ul>
- 	</div>
-
-<div >
- <ul class="nav navbar-nav" style="font-size: 12px; position: relative; left:39% ;">
-      <li class="active"><a href="#" >All Photos</a></li>
-      <li><a href="#" style="font-size: 12px;">Restaurant</a></li>
-      <li><a href="#" style="font-size: 12px;">Food</a></li>
-      <li><a href="#" style="font-size: 12px;">Desserts</a></li>
-     
-    </ul>
+<div class="container">
+  <section class="row">
+    <div class="col-md-4 col-md-offset-4 img-gal text-center">
+      <div class="col-xs-3">
+        <img src="<?= base_url('assets/sources/img/Mirtha/photos.png'); ?>">
+        <p>All Photos</p>
+      </div>
+      <div class="col-xs-3">
+        <img src="<?= base_url('assets/sources/img/Mirtha/restaurant.png'); ?>">
+        <p>Restaurant</p>
+      </div>
+      <div class="col-xs-3">
+        <img  src="<?= base_url('assets/sources/img/Mirtha/food.png'); ?>">
+        <p>Food</p>
+      </div>
+      <div class="col-xs-3 img-gal-end">
+        <img  src="<?= base_url('assets/sources/img/Mirtha/desserts.png'); ?>">
+        <p>Desserts</p>
+      </div>
     </div>
+  </section>
+</div>
 
-    <div >
-    <ul  class="img-din">
-      <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:50%;left:25% ">
-      <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:50%;left:35% " >
-    </ul>
-    </div>
-
-    <div>
-      <ul class="img-din">
-         <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:100%;left:25% " >
-        <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:100%;left:35% " >
-      </ul>
-    </div>
-
-     <div >
-      <ul class="img-din">
-         <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:100%;left:25% " >
-        <img id="img-dinamica" src="../../assets/sources/img/Mirtha/img.png" style="font-size: 12px; position: relative; top:100%;left:35% " >
-      </ul>
-    </div>
+<div class="container">
+  <section class="row">
+    <div class="col-sm-6">
+      <img id="img-dinamica" src="<?= base_url('assets/sources/img/Mirtha/img.png'); ?>"></div>
+    <div class="col-sm-6">
+      <img id="img-dinamica" src="<?= base_url('assets/sources/img/Mirtha/img.png'); ?>"></div>
+  </section>
+</div>
+ 
 
   <div class="container col-md-6 col-md-offset-3" style="margin-bottom: 10%; ">                
   <ul class="pagination">
@@ -61,10 +50,12 @@
     <li><a href="#" style="background-color: #e2ad56">5</a></li>
   </ul>
 </div>
-<?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 
+<div class="opening">
+  <?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
+</div>
 
-    <?php $this->load->view('FrontEnd/Global/Footer'); ?>
+<?php $this->load->view('FrontEnd/Global/Footer'); ?>
 
 
 
