@@ -64,7 +64,9 @@
 <section class="row">
 	<div class="container">
 			<div class="ingredients" >
+
 				<p id="ingredientes">Ingredientes</p>
+
 				<p><b><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
 				<p><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
 				<p><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
@@ -123,6 +125,7 @@
 
 
 <div class="container">
+
 		<div class="row cuadrosPic">
 			<h2>Featured Recipies</h2>
 			<div class="col-md-10 col-md-offset-1">
