@@ -4,46 +4,49 @@
 	<h1 class="blog_titulo"><img src="<?= base_url('assets/sources/img/left_leaf.png'); ?>" class="izquierda"><img src="<?= base_url('assets/sources/img/right_leaf.png'); ?>" class="derecha">Reservations</h1>
 </div>
 
+
 <div class="container">
 	<section class="row text-center">
 		<h2>Book a Table</h2>
 		<p class="col-md-6 col-md-offset-3">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
 	</section>
 
+<form id="formularioReservacion" action="<?php echo base_url('index.php/Restaurant/ReservacionControlador/guardar'); ?>" method="POST" >
 	<section class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="row form-group">
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Name*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/user.png'); ?>"></input>
+					<input type="text" class="inp" placeholder="Name*" name="Nombre"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/user.png'); ?>"></input>
 				</div>
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Email*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/msg.png'); ?>"></input>
+					<input type="email" class="inp" placeholder="Email*" name="Email"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/msg.png'); ?>"></input>
 				</div>
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Phone*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/cell.png'); ?>"></input>
+					<input type="text" class="inp" placeholder="Phone*" name="Telefono"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/cell.png'); ?>"></input>
 				</div>
 			</div>
 			<div class="row form-group">
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Date*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/calendar.png'); ?>"></input>
+					<input type="date" class="inp" placeholder="Date*" name="Fecha"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/calendar.png'); ?>"></input>
 				</div>
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Time*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/time.png'); ?>"></input>
+					<input type="time" class="inp" placeholder="Time*" name="Hora"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/time.png'); ?>"></input>
 				</div>
 				<div class="col-md-4">
-					<input type="text" class="inp" placeholder="Guests*"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/guests.png'); ?>"></input>
+					<input type="number" min="0" class="inp" placeholder="Guests*" name="Invitados"><img class="img-icon" alt="icon" src="<?= base_url('assets/sources/icons/guests.png'); ?>"></input>
 				</div>
 			</div>
 			<div class="row form-group">
-				<textarea name="" placeholder="Special Requirements*"></textarea>
+				<textarea placeholder="Special Requirements*" name="Requerimientos"></textarea>
 				<img src="<?= base_url('assets/sources/icons/chat.png'); ?>" alt="icon" class="icon-textarea">
 			</div>
 		</div>
 
 	</section>
 	<section class="row text-center">
-		<button class="btn make">MAKE RESERVATION</button>
+		<button class="btn make" type="submit">MAKE RESERVATION</button>
 	</section>
+</form>
 </div>
 
 <div class="circles">
