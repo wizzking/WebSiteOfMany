@@ -64,7 +64,9 @@
 <section class="row">
 	<div class="container">
 			<div class="ingredients" >
-				<p id="ingredientes">Ingredientes</p> <br>
+
+				<p id="ingredientes">Ingredientes</p>
+
 				<p><b><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
 				<p><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
 				<p><img src="<?php echo base_url('assets/sources/img/check.png'); ?>" width="50px" heigh="50px"> 1/2 taza de limón</p>
@@ -77,70 +79,87 @@
 
 <section>
 	<div class="contenedor">
-		<img src="<?php echo base_url('assets/sources/img/fondoReceta.png'); ?>" border="0" width="100%" heigh="100px">
-		  <div class="texto">Pasos de preparación</div><br>
-				<div class="cuadros">
-	  				<label>1</label>
-	  			</div>
-
-		  		<div class="texto-cuadros">
-			  		<p>Esto es un prueba de texto para ver si sale o no sale</p>
+		<div class="col-md-5 col-md-offset-3 pasos">
+			<h3>Food Step</h3>
+				<div class="container-fluid steps">
+						<div class="row step">
+							<div class="col-xs-2">
+								<div><p>1<br>STEP</p></div>
+							</div>
+							<div class="col-xs-10">
+								<p>consectetur adipisicing elit. Deleniti tempora nisi perspiciatis voluptatum labore dolore quae, quod itaque optio quos in recusandae, nulla similique omnis praesentium eveniet a consectetur, accusamus!</p>
+							</div>
+						</div>
+						<div class="row step">
+							<div class="col-xs-2">
+								<div><p>2<br>STEP</p></div>
+							</div>
+							<div class="col-xs-10">
+								<p>consectetur adipisicing elit. Et rerum nulla veritatis soluta voluptate, voluptatum aliq iste eum placeat quaerat, distinctio fuga pariatur in nobis qui?</p>
+							</div>
+						</div>
+						<div class="row step">
+							<div class="col-xs-2">
+								<div><p>3<br>STEP</p></div>
+							</div>
+							<div class="col-xs-10">
+								<p>consectetur adipisicing elit. Molestiae, ad iusto. Doloribus et iste commodi, aperiam illosam aspernatur quis vitae laborum!</p>
+							</div>
+						</div>
+						<div class="row step">
+							<div class="col-xs-2">
+								<div><p>4<br>STEP</p></div>
+							</div>
+							<div class="col-xs-10">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nulla magnam aliquid enim molestiae ex, suscipit nesciunt aliquam in optio nemo odit, tenetur adipisci recusandae maiores possimus laboriosam libero. Id!</p>
+							</div>
+						</div>
 				</div>
+		</div>
 	</div>
 </section>
 
+
+
+
+
+
 <div class="container">
-<section class="row">
-		<h2>Featured Recipies</h2>
-			<div class="container">
-				<div class="container FoodOptions row">
-					<div class="col-md-4">
-						<div class="col-xs-12 div-reserv">
-							<div class="menu-gallery pizza">
-								<img src="../../assets/sources/img/plato1.png"  >
-								<div class="menu-desc">
-									<h5><b>Pakoda Chatny</b></h5>
-									<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
-									<p>Esto es un prueba de texto para ver si sale o no sale
-									Esto es un prueba de texto para ver si sale o no sale</p>
-									<button type="button" class="btn btn-warning borde">Detalle de la receta</button>
-									</div>
-							</div>
-						</div>
-					</div>
 
-				<div class="col-md-4">
+		<div class="row cuadrosPic">
+			<h2>Featured Recipies</h2>
+			<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-4 img-reserv">
+					<img src="<?= base_url('assets/sources/img/plato3.png'); ?>" alt="">
 					<div class="col-xs-12 div-reserv">
-						<div class="menu-gallery snack" id="snack">
-							<img src="../../assets/sources/img/plato3.png"  >
-							<div class="menu-desc ">
-								<h5><b>Pakoda Chatny</b></h5>
-								<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
-								<p>Esto es un prueba de texto para ver si sale o no sale
-								Esto es un prueba de texto para ver si sale o no sale</p>
-								<button type="button" class="btn btn-warning borde">Detalle de la receta</button>
-							</div>
-						</div>
+						<h4><b>Pakoda Chatny</b></h4>
+						<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam illo consectetur aut maiores na</p>
+						<button type="button" class="btn">RECIPE DETAILS</button>
 					</div>
 				</div>
-
-				<div class="col-md-4">
+				<div class="col-md-4 img-reserv">
+					<img src="<?= base_url('assets/sources/img/plato2.png'); ?>" alt="">
 					<div class="col-xs-12 div-reserv">
-						<div class="menu-gallery snack" id="snack">
-							<img src="../../assets/sources/img/plato3.png"  >
-							<div class="menu-desc ">
-								<h5><b>Pakoda Chatny</b></h5>
-								<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
-								<p>Esto es un prueba de texto para ver si sale o no sale
-								Esto es un prueba de texto para ver si sale o no sale</p>
-								<button type="button" class="btn btn-warning borde">Detalle de la receta</button>
-							</div>
-						</div>
+						<h4><b>Pakoda Chatny</b></h4>
+						<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad numquam illo consectetur aut maiores na</p>
+						<button type="button" class="btn">RECIPE DETAILS</button>
 					</div>
 				</div>
-			</div>		
-</section>
-</div>
+				<div class="col-md-4 img-reserv">
+					<img src="<?= base_url('assets/sources/img/plato1.png'); ?>" alt="">
+					<div class="col-xs-12 div-reserv">
+						<h4><b>Pakoda Chatny</b></h4>
+						<img src="<?php echo base_url('assets/sources/img/estrellas.png'); ?>">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repellendus neque nesciuntdio ea.</p>
+						<button type="button" class="btn">RECIPE DETAILS</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 <?php $this->load->view('FrontEnd/Global/horaApertura'); ?>
 <?php $this->load->view('FrontEnd/Global/Footer'); ?>

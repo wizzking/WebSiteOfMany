@@ -180,10 +180,6 @@ table {
     margin-bottom: 70px;
 }
 
-.openingHours{margin-top: 30px;margin-bottom: 50px;}
-.openingHours>div>label{color: #fea100; font-size: 20px;}
-.openingHours small{display: inline-block; color: gray;}
-
 #row2{
     margin-top: 50px;
 }

@@ -1,3 +1,9 @@
+<style>
+	.openingHours{margin-top: 30px;margin-bottom: 50px;}
+	.openingHours>div>label{color: #fea100; font-size: 20px;}
+	.openingHours small{display: inline-block; color: gray;}
+</style>
+
 <div class="container openingHours">
 	<h3 class="col-lg-4 text-right">Opening Hourss</h3>
 	<div class="col-lg-5">
