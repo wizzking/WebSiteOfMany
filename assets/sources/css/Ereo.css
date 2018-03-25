@@ -28,14 +28,14 @@
 	width: 590px;
 }
 
-#botonview{
+.botonview{
 	background: #ffeac5; 
 	border: 0; 
 	color: #e48800;
 	margin-top: 40px;
 	border-radius: 5px !important;
 }
-#botonview:hover{
+.botonview:hover{
 	background: #ffb738; 
 	color: #000;
 }

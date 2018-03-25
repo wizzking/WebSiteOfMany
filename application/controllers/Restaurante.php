@@ -17,10 +17,6 @@ class Restaurante extends CI_Controller
 	{
 		$this->load->view('FrontEnd/Menu');
 	}
-	public function Event()
-	{
-		$this->load->view('FrontEnd/Event');
-	}
 	public function EventDetail()
 	{
 		$this->load->view('FrontEnd/EventDetail');
